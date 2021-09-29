@@ -87,6 +87,10 @@ a:hover {
 
 /* Header */
 
+.header {
+  padding-top: 10px;
+}
+
 .header-wrap {
   max-width: 1168px;
   margin: 0 auto;
@@ -119,6 +123,9 @@ a:hover {
 
 .header__input {
   border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
 }
 
 .header__search-btn {
@@ -147,6 +154,7 @@ a:hover {
 .nav__list {
   align-items: center;
   height: 100%;
+  margin-left: 80px;
 }
 
 .nav__item a:hover {
@@ -184,8 +192,6 @@ a:hover {
   font-size: 30px;
   margin: 8px 0;
 }
-
-
 
 .col-2__content-list {
   margin-top: 8px;

@@ -19,6 +19,7 @@
 }
 
 .header__nav-item {
+  line-height: 60px;
 }
 
 .header__nav-item-link {

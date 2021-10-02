@@ -212,6 +212,10 @@
   color: #000;
 }
 
+.notification__item:hover a {
+  color: #fa9b06;
+}
+
 .rank-wrap {
   margin-top: 10px;
 }

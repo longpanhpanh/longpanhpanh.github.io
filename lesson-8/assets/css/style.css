@@ -315,6 +315,7 @@
   border-color: #ccc transparent #ccc transparent;
   display: none;
   animation: growDown 0.2s ease-in;
+  box-shadow: 0 5px 5px #d3d3d3;
 }
 
 .sub-menu-container::before {

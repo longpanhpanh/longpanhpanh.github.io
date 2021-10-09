@@ -190,8 +190,12 @@
   margin: 8px 0;
 }
 
-.newest-item-play {
+.newest-item:hover .newest-item-play {
   display: block;
+}
+
+.newest-item-play {
+  display: none;
   position: absolute;
   top: 10px;
   left: 10px;

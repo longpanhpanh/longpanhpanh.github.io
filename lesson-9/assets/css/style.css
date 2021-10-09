@@ -1,0 +1,60 @@
+.header {
+  background-color: #fff;
+
+  position: relative;
+}
+
+.header__nav {
+  position: absolute;
+  background-color: #fff;
+  width: 16.6666667%;
+  position: relative;
+}
+
+.nav-item {
+}
+
+.nav-item:hover .nav-link,
+.sub-item:hover .sub-link {
+  background-color: #999;
+  color: #c94017;
+}
+
+.nav-item a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+.header__logo {
+  width: 250px;
+}
+
+.slider {
+  background-image: url(https://icms-image.slatic.net/images/ims-web/857b0b88-8c0b-44c4-ac14-77ed54e643cd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+
+.sub-menu {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  display: none;
+}
+
+.sub-item {
+  width: 100%;
+}
+
+.sub-link {
+  padding: 8px 20px;
+}

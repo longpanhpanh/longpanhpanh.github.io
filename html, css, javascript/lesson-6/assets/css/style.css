@@ -1,0 +1,299 @@
+/* Header CSS */
+.header {
+  background-color: #1b243c;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.header__nav {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__nav-list {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.header__nav-item {
+  line-height: 60px;
+}
+
+.header__nav-item-link {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ced7d7;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.header__nav-item-link:hover {
+  color: #fa9b06;
+}
+
+.logo-margin {
+  margin-left: 166px;
+}
+
+.header__logo {
+  width: 206px;
+  height: 145px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 41%;
+  background-image: url(https://img.zing.vn/products/vltkh5/skin-2018/images/themes/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Main CSS */
+
+.margin-top {
+  margin-top: 458px;
+}
+
+.main {
+  background: url(//img.zing.vn/upload/vltkh5/source/Header/JXH5-21.jpg) center
+      top no-repeat,
+    url(//img.zing.vn/upload/vltkh5/source/Header/JXH5-bot.jpg) center bottom
+      no-repeat,
+    url(//img.zing.vn/upload/vltkh5/source/Header/JXH5-mid.jpg) center top
+      repeat-y;
+  width: 100%;
+  display: block;
+  position: relative;
+  min-height: 1000px;
+}
+
+/* Aside CSS */
+
+.aside {
+  background-color: transparent;
+  height: 500px;
+}
+
+.game-action {
+}
+
+.game-action__play {
+  position: absolute;
+  top: 125px;
+  left: 118px;
+  display: block;
+  background: url(https://img.zing.vn/products/vltkh5/skin-2018/images/themes/btn-playnow-nor.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 373px;
+  height: 329px;
+}
+
+.game-action__pay-img {
+  width: 100%;
+  height: 70px;
+}
+
+.game-action__app-download {
+}
+.game-action__app-link {
+}
+.game-action__app-img {
+  width: 150px;
+}
+
+.menu-search {
+  background-color: #162236;
+  padding: 8px 0;
+}
+
+.search-input-wrap {
+  background-color: #e2e2e2;
+  border: 1px solid #000;
+}
+
+.search-input {
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 8px;
+}
+
+.search-button {
+  border: none;
+  background-color: #00316d;
+  color: #fff;
+  height: 100%;
+  width: 34px;
+  padding: 10px;
+}
+
+.aside__menu {
+  background: url(/lesson-6/assets/img/menu-background.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aside__menu-item {
+}
+
+.aside__contact {
+  margin-top: 10px;
+}
+
+.aside__contact-img {
+  width: 100%;
+}
+
+.img-fix {
+  margin: 0 0 -6px 7px;
+}
+
+.aside__menu-link {
+  padding: 0 6px;
+}
+
+.aside__menu-link:nth-child(2) {
+  padding-bottom: 0px;
+  padding-left: 7px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* Main content CSS */
+
+.heading-img {
+  width: 100%;
+  height: 200px;
+}
+
+.notification-wrap {
+  margin-top: 10px;
+  background: url(/lesson-6/assets/img/notification-background.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.notification__head {
+  background-color: #0a1221;
+  height: 43px;
+}
+
+.notification__head-item {
+}
+
+.notification__head-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 11px;
+}
+
+.notification__head-link:hover {
+  color: #0a1221;
+  background-color: #fff;
+}
+
+.notification__list {
+  list-style: initial;
+  color: #00316d;
+  margin: 10px 0 0 20px;
+}
+
+.notification__item {
+  padding: 10px;
+}
+
+.notification__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.notification__item:hover a {
+  color: #fa9b06;
+}
+
+.rank-wrap {
+  margin-top: 10px;
+}
+
+.rank__heading {
+  height: 43px;
+  background-color: #0a1221;
+}
+
+.rank__heading-title {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 43px;
+}
+
+.rank__heading-menu {
+  margin-top: 10px;
+  display: flex;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #0a1221;
+  height: 30px;
+  line-height: 30px;
+  color: #fcfa6e;
+}
+
+.rank__heading-user {
+}
+
+.rank__heading-power {
+  margin-left: auto;
+}
+
+.rank__list {
+  margin-top: 40px;
+  background-color: #eaebf1;
+  padding: 0 10px;
+}
+
+.rank__list-item {
+  padding: 4px 0;
+}
+
+.rank__list-item p {
+  color: #000;
+}
+
+.rank__list-user {
+}
+
+.rank__list-achieve {
+}
+
+.class {
+  margin-top: 10px;
+}
+
+/* Footer CSS */
+
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 68px;
+  padding-bottom: 45px;
+  color: #909090;
+}
+.footer__head {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__head a {
+  padding: 0 20px;
+}
+
+.company-info p {
+  margin-top: 10px;
+  text-align: center;
+}

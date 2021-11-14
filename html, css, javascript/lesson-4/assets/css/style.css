@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.grid {
+  width: 976px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.content-wrap {
+  width: 75%;
+}
+
+.header {
+  background-color: #f94f30;
+  height: 120px;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+}
+
+.header__logo {
+  width: 200px;
+}
+
+.header__logo-img {
+  width: 150px;
+  color: #fff;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+  height: 80px;
+}
+
+.header__search-input-wrap {
+  background-color: #fff;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 36px;
+}
+
+.header__search-input {
+  height: 100%;
+  padding: 0 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.header__search-btn {
+  height: 34px;
+  width: 60px;
+  background-color: #f94f30;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.header__search-btn:hover {
+  background-color: #fb6445;
+  cursor: pointer;
+}
+
+.header__cart {
+  width: 150px;
+  text-align: center;
+}
+
+.header__cart-link {
+  color: #fff;
+  font-size: 23px;
+}
+
+.navbar {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.navbar-list {
+  list-style: none;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.navbar-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.navbar-item a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-top: 16px;
+  height: 100%;
+  margin: 16px 8px;
+}
+
+.sidebar__heading {
+  display: flex;
+  padding: 10px;
+  margin: 6px 16px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.sidebar__title {
+  margin-left: 4px;
+}
+
+.sidebar__icon {
+  font-size: 18px;
+}
+
+.sidebar__list {
+  list-style: none;
+}
+
+.sidebar__list-item {
+  margin: 0 16px;
+}
+
+.sidebar__list-item a {
+  position: relative;
+  right: 0;
+  padding: 8px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: right linear 0.1s;
+}
+
+.sidebar__list-item a:hover {
+  color: #f94f30;
+  right: -4px;
+}
+
+
+.product {
+  width: 30%;
+  margin: 16px 8px 0 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: 0 0 1px #dbdbdb;
+  display: inline-block;
+}
+
+.product__img {
+  background-size: contain;
+  padding-top: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product__name {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #595858;
+  padding: 2px 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.product__price {
+  padding: 8px 10px;
+}
+
+.product_price-old {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #595858;
+}
+
+.product_price-current {
+  margin-left: 10px;
+  color: #f94f30;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.product-action {
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.product-action__like {
+  font-size: 14px;
+}
+
+.product-action__rating {
+  font-size: 8px;
+  color: #595858;
+  margin-left: auto;
+}
+
+.product-action__sold {
+  font-size: 12px;
+  color: #595858;
+  margin-left: 6px;
+}
+
+/* Footer CSS */
+
+.footer {
+  background-color: #ede9e9;
+  margin-top: 16px;
+  border-top: 2px solid #f94f30;
+}
+
+.footer-wrap {
+  width: 976px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer__column {
+  display: inline-block;
+}
+
+.footer__title {
+  padding: 8px;
+  font-size: 15px;
+  color: #595858;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+
+.footer__list-item a {
+  text-decoration: none;
+  color: #595858;
+  font-size: 14px;
+  display: block;
+  padding: 8px;
+}
+
+.footer__list-item a:hover {
+  cursor: pointer;
+  color: #f94f30;
+}
+
+
+.footer__list-item-payment {
+  width: 190px;
+  height: 110px;
+}
+
+.footer__social-media {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer__social-media-icon {
+  color: #0000008a;
+}
+
+.header-cart .header-cart-link .header-cart-icon {
+  
+}

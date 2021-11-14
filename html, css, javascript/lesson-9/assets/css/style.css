@@ -1,0 +1,42 @@
+.heart-1,
+.heart-2,
+.heart-3 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.heart-wrapper {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+  animation: beat 1s linear infinite;
+}
+
+.heart-2 {
+  border-radius: 50%;
+  position: absolute;
+  top: -77px;
+  left: 77px;
+}
+
+.heart-3 {
+  border-radius: 50%;
+  position: absolute;
+  top: -38%;
+  left: -76px;
+}
+
+.heart-1 {
+  transform: rotate(45deg);
+}
+
+@keyframes beat {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+}

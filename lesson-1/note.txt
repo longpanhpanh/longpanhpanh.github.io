@@ -1,2 +1,0 @@
-<br> break line: xuống dòng
-<hr> horizontal ruler: gạch ngang
